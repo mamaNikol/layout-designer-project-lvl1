@@ -1,0 +1,25 @@
+.flex-container-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background: white;
+	color: black;
+	padding: 20px;
+	align-items: baseline;
+}
+.flex-container-nav {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+}
+li {
+	list-style: none;
+	margin-right: 20px;
+}
+.logo {
+	align-self: baseline;
+}
