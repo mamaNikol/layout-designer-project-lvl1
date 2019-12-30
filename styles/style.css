@@ -15,6 +15,7 @@
 	display: flex;
 	flex-direction: row;
 	align-items: baseline;
+
 }
 li {
 	list-style: none;
@@ -22,4 +23,24 @@ li {
 }
 .logo {
 	align-self: baseline;
+
+}
+main {
+	display: flex;
+
+}
+.first {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	background-image: url(../banner.png);
+	background-size: 100%;
+	background-position: center;
+	margin-top: 50px;
+	color: white;
+	padding: 20px;
+}
+.first h5 {
+	margin-top: -10px;
 }
