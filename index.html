@@ -24,7 +24,7 @@
 			<img src="images/Без названия.svg" width="60px">
 			<h3>ЖК «Лунное море»</h3>
 			<h5>Место, откуда не хочется улетать</h5>
-			<button class="btn-1">Забронировать</button>
+			<button class="btn-1"><a href="#booking"> Забронировать</a></button>
 		</div>
 		<section class="advantage">
 			<div class="one">
@@ -62,13 +62,11 @@
 			</div>
 			
 		</section>
-		<section сlass="form">
-
-		
-		<form method="post" action="">
-			<h3>Оставьте заявку сегодня!</h3>
+		<div class="containerForm">
+		<form action="" method="">
+			<h2>Оставьте заявку сегодня!</h2>
 			<fieldset>
-				<legend>Параметры квартиры</legend>
+				<legend class="containerForm-header1">Параметры квартиры</legend>
 				<p>Количество комнат</p>
 				<select name="rooms">
 
@@ -86,17 +84,15 @@
 
 			</fieldset>
 			<fieldset>
-				<legend>Контактная информация</legend>
-				<p><input type="text" name="name">Имя</p>
-				<p><input type="text" name="number">Телефон</p>
-				<p><input type="email" name="email">E-mail</p>
-
+				<legend class="containerForm-header2">Контактная информация</legend>
+					<label for="name"><span>Имя:</span><input type="text" class="input-name" name="name" value="" ></label>
+					<label for="number"><span>Телефон:</span><input type="text" class="input-number" name="number" value="" ></label>
+<label for="email"><span>Email: </span><input type="text" class="input-email" name="email" value="" ></label>
 				
 			</fieldset>
-			<p><input type="submit" value="Отправить"></p>
-
+			<button class="btn-2">Отправить</button>
 		</form>
-	</section>
+	</div>
 
 
 		

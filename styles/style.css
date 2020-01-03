@@ -94,16 +94,61 @@ div .aboutmoon {
 .aboutplaces {
 	flex-direction: row-reverse;
 }
-
-form {
-	 padding: 20px;
-	 width: 30%;
-	 background: #f3f5ff;
-	 display: flex;
-	 flex-direction: column;
-	 justify-content: center;
-	 
+.containerForm {
+	max-width: 100%;
+	padding: 20px 12px 10px 20px;
+	font: 13px Arial, Helvetica, sans-serif;
+	background: #f3f5ff;
+	display: flex;
+	justify-content: center;
+}
+.containerForm-header2, .containerForm-header1 {
+	font-weight: bold;
+	font-style: italic;
+	
+	margin-bottom: 20px;
+	font-size: 15px;
+	padding-bottom: 3px;
+	color: #14D100;
+}
+.containerForm label {
+	display: block;
+	margin: 0px 0px 15px 0px;
+}
+.containerForm label > span {
+	width: 100px;
+	font-weight: bold;
+	float: left;
+	padding-top: 8px;
+	padding-right: 5px;
+}
+fieldset {
+	border: 1px solid #14D100;
 
 }
-fieldset 
+.btn-2 {
+	color: #5DE100;
+	padding: 5px 20px;
+	border: 1px solid #14D100;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+.containerForm input {
+	background: white;
+	border-radius: 5px;
+}
+.containerForm select {
+	display: block;
+	margin: 0px 0px 15px 0px;
+	font-weight: bold;
+	border-radius: 5px;
 	
+ width: 110px;
+ padding: 5px;
+}
+.containerForm p {
+margin: 0px 0px 15px 0px;
+	font-weight: bold;
+	float: left;
+	margin: 0px 15px 15px 0px;
+}
