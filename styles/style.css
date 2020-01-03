@@ -142,7 +142,7 @@ fieldset {
 	margin: 0px 0px 15px 0px;
 	font-weight: bold;
 	border-radius: 5px;
-	
+
  width: 110px;
  padding: 5px;
 }
@@ -151,4 +151,12 @@ margin: 0px 0px 15px 0px;
 	font-weight: bold;
 	float: left;
 	margin: 0px 15px 15px 0px;
+}
+footer {
+	background: #606060;
+	padding: 20px;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
