@@ -11,7 +11,7 @@
 	padding: 20px;
 	align-items: baseline;
 }
-.flex-container-nav {
+.flex-container-nav ul {
 	display: flex;
 	flex-direction: row;
 	align-items: baseline;
@@ -163,4 +163,18 @@ footer {
 }
 footer li {
 	list-style: disc;
+}
+.imagemoon img {
+	width: 280px ;
+
+}
+.logo img, .logo2 img {
+	width: 20px;
+    height: 20px;
+}
+.first img {
+	width: 60px;
+}
+.imagecosmos img {
+	width: 280px;
 }
