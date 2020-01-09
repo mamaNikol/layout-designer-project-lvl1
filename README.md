@@ -1,1 +1,1 @@
-mamanikol0701.surge.sh
+https://mamanikol0701.surge.sh/
