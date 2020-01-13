@@ -1,4 +1,6 @@
-
+body {
+	margin: 0;
+}
 	.flex-container-header {
 	position: fixed;
 	top: 0;
@@ -42,7 +44,7 @@ main {
 	flex-direction: column;
 }
 
-.first {
+.banner {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -57,20 +59,20 @@ main {
 	justify-content: center;
 
 }
-.first h5 {
+.banner h5 {
 	margin-top: -15px;
 }
  h1, h2, h3, h4, h5 {
 	font-family: Geneva, Arial, Helvetica, sans-serif;
 }
 
-.first input {
+.banner input {
 	background: none;
 	border-radius: 5px;
 	color: white;
 	padding: 5px;
 }
-.first img {
+.banner img {
 	padding-top: 20px;
 }
 section {
@@ -84,7 +86,7 @@ section {
 
 
 }
-.one, .two, .three {
+.one_advantage, .two_advantage, .three_advantage {
 	display: flex;
 	flex-wrap: wrap;
 	width: 30%;
@@ -105,8 +107,22 @@ p {
  
  padding-top: 30px;
  padding-bottom: 30px;
- width: 90%;
+ width: 100%;
+}
 
+/*.moon, .places {
+	width: 1000px;
+
+}*/
+.aboutmoon_content, .aboutplaces_content {
+	width: 1000px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.aboutplaces_content {
+	display: flex;
+	flex-direction: row-reverse;
 }
 .aboutmoon {
 	background: #f3f5ff;
@@ -217,7 +233,7 @@ footer a {
 	color: white;
 	text-decoration: none;
 }
-.first img {
+.banner img {
 	width: 120px;
 }
 .imagecosmos img {
