@@ -44,12 +44,11 @@ main {
 	flex-direction: column;
 }
 
-.banner {
+.headpiece {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 100%;
-	height: 250px;
+	
 	background-image: url(../banner.png);
 	background-size: 1800px 800px;
 	background-position: center;
@@ -59,20 +58,20 @@ main {
 	justify-content: center;
 
 }
-.banner h5 {
+.headpiece h5 {
 	margin-top: -15px;
 }
  h1, h2, h3, h4, h5 {
 	font-family: Geneva, Arial, Helvetica, sans-serif;
 }
 
-.banner input {
+.headpiece input {
 	background: none;
 	border-radius: 5px;
 	color: white;
 	padding: 5px;
 }
-.banner img {
+.headpiece img {
 	padding-top: 20px;
 }
 section {
@@ -233,7 +232,7 @@ footer a {
 	color: white;
 	text-decoration: none;
 }
-.banner img {
+.headpiece img {
 	width: 120px;
 }
 .imagecosmos img {
