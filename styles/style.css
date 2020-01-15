@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	font-family: Tahoma, Geneva, sans-serif;
 }
 	.flex-container-header {
 	position: fixed;
@@ -35,7 +36,7 @@ li {
 
 }
 .logo span {
-	font-family: font-family: Geneva, Arial, Helvetica, sans-serif;
+	
 	padding-left: 10px;
 }
 	
@@ -48,9 +49,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	
 	background-image: url(../banner.png);
-	background-size: 1800px 800px;
 	background-position: center;
 	margin-top: 50px;
 	color: white;
@@ -58,18 +57,21 @@ main {
 	justify-content: center;
 
 }
-.headpiece h5 {
+.headpiece h2 {
 	margin-top: -15px;
+	font-size: 14px;
 }
  h1, h2, h3, h4, h5 {
-	font-family: Geneva, Arial, Helvetica, sans-serif;
+	
 }
-
-.headpiece input {
+.headpiece a {
 	background: none;
-	border-radius: 5px;
+	text-decoration: none;
+	border: 1px solid white;
+	
+	border-radius: 10px;
 	color: white;
-	padding: 5px;
+	padding: 10px;
 }
 .headpiece img {
 	padding-top: 20px;
@@ -118,13 +120,14 @@ p {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+	align-items: stretch;
 }
 .aboutplaces_content {
 	display: flex;
 	flex-direction: row-reverse;
 }
 .aboutmoon {
-	background: #f3f5ff;
+	background: #f7f7f7;
 
 }
 div .aboutmoon {
@@ -133,12 +136,35 @@ div .aboutmoon {
 .moon, .places {
  display: flex;
  flex-wrap: wrap;
- width: 30%;
+ width: 40%;
+ 
 
+}
+.moon {
+	margin-right: 30px;
+}
+.places {
+	margin-left: 30px;
+}
+.aboutmoon p, .aboutplace p {
+	font-size: 12px;
 }
 .imagemoon {
 	display: flex;
+	margin-top: 15px;
+}
+.imagemoon img {
+	width: 280px ;
 
+}
+.headpiece img {
+	width: 120px;
+}
+.imagecosmos {
+	margin-top: 15px;
+}
+.imagecosmos img {
+	width: 280px;
 }
 .aboutplaces {
 	flex-direction: row-reverse;
@@ -148,7 +174,7 @@ div .aboutmoon {
 	max-width: 100%;
 	padding: 20px 12px 10px 20px;
 	font: 13px Arial, Helvetica, sans-serif;
-	background: #f3f5ff;
+	background: #f7f7f7;
 	display: flex;
 	justify-content: center;
 }
@@ -177,6 +203,8 @@ fieldset {
 	border: 1px solid rgb(0,255,204);
 
 }
+
+
 .btn-2 {
 	color: rgb(0,255,204);
 	padding: 5px 20px;
@@ -188,24 +216,35 @@ fieldset {
 	background: white;
 	border-radius: 7px;
 }
+.containerForm-header1 {
+	margin-left:0;
+	margin-right:0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
 .containerForm select {
 	display: block;
+
 	box-sizing: border-box;
-	margin: 0px 0px 15px 0px;
+	margin: 0 0px 15px 10px;
 	font-weight: bold;
 	border-radius: 7px;
     width: 130px;
     padding: 5px;
+
+  
 }
 
 .containerForm p {
-margin: 0px 0px 15px 0px;
+margin: 0px 100px 15px 0px;
 	font-weight: bold;
 	float: left;
-	margin: 0px 15px 15px 0px;
+
 }
+
 footer {
-	background: #606060;
+	background: #303846;
 	padding: 20px;
 	color: white;
 	display: flex;
@@ -216,10 +255,7 @@ footer {
 footer li {
 	list-style: disc;
 }
-.imagemoon img {
-	width: 280px ;
 
-}
 .logo img, .logo2 img {
 	width: 20px;
     height: 20px;
@@ -232,12 +268,7 @@ footer a {
 	color: white;
 	text-decoration: none;
 }
-.headpiece img {
-	width: 120px;
-}
-.imagecosmos img {
-	width: 280px;
-}
+
 footer p {
 	padding-top: 20px;
 	font-size: 10px;
