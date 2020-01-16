@@ -82,9 +82,9 @@
 			<h2>Оставьте заявку сегодня!</h2>
 			<fieldset>
 				<legend class="containerForm-header1">Параметры квартиры</legend>
-				<p>Количество комнат</p>
 
-				<select name="rooms">
+				 <label><span>Количество комнат</span></label>
+				 <select name="rooms">
 
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -92,7 +92,8 @@
                 </select>
 
 
-                <p>Отделка</p>
+
+                <label><span>Отделка</span></label>
 				<select name="finishing">
 
                     <option value="yes">с отделкой</option>
@@ -104,10 +105,11 @@
 			</fieldset>
 			<fieldset>
 				<legend class="containerForm-header2">Контактная информация</legend>
+				<div class=blockForlabel>
 					<label><span>Имя:</span><input type="text" class="input-name" name="name" value="" ></label>
 					<label><span>Телефон:</span><input type="text" class="input-number" name="number" value="" ></label>
                     <label><span>Email: </span><input type="text" class="input-email" name="email" value="" ></label>
-				
+				</div>
 			</fieldset>
 			<button class="btn-2">Отправить</button>
 		</form>
