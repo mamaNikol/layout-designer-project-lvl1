@@ -1,3 +1,8 @@
+:root {
+	--content-color: #f7f7f7;
+	--headpice-height: 400px;
+	--content-fontsize: 16px;
+}
 body {
 	margin: 0;
 	font-family: Tahoma, Geneva, sans-serif;
@@ -10,7 +15,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-
+    margin-bottom: 50px;
 	background: white;
 	color: black;
 	padding: 5px 20px;
@@ -51,7 +56,7 @@ main {
 	align-items: center;
 	background-image: url(../banner.png);
 	background-position: center;
-	margin-top: 50px;
+    height: var(--headpice-height);
 	color: white;
 	padding: 20px;
 	justify-content: center;
@@ -61,9 +66,7 @@ main {
 	margin-top: -15px;
 	font-size: 14px;
 }
- h1, h2, h3, h4, h5 {
-	
-}
+ 
 .headpiece a {
 	background: none;
 	text-decoration: none;
@@ -71,10 +74,10 @@ main {
 	
 	border-radius: 10px;
 	color: white;
-	padding: 10px;
+	padding: 7px;
 }
 .headpiece img {
-	padding-top: 20px;
+	padding-top: 50px;
 }
 section {
 	width: 1000px;
@@ -87,16 +90,17 @@ section {
 
 
 }
-.one_advantage, .two_advantage, .three_advantage {
+.content_advantage {
 	display: flex;
 	flex-wrap: wrap;
 	width: 30%;
 	padding: 20px;
 	align-items: flex-start;
 	padding-right: 10px;
+
 }
 p {
-	font-size: 14px;
+	font-size: var(--content-fontsize);
 	align-self: flex-start;
 	margin-top: -5px;
 }
@@ -123,7 +127,7 @@ p {
 	flex-direction: row-reverse;
 }
 .aboutmoon {
-	background: #f7f7f7;
+	background: var(--content-color);
 
 }
 div .aboutmoon {
@@ -142,14 +146,12 @@ div .aboutmoon {
 .places {
 	margin-left: 30px;
 }
-.aboutmoon p, .aboutplace p {
-	font-size: 12px;
-}
+
 .imagemoon {
 	display: flex;
 	margin-top: 15px;
 }
-.imagemoon img {
+.imagemoon img, .imagecosmos img {
 	width: 280px ;
 
 }
@@ -159,21 +161,20 @@ div .aboutmoon {
 .imagecosmos {
 	margin-top: 15px;
 }
-.imagecosmos img {
-	width: 280px;
-}
 .aboutplaces {
 	flex-direction: row-reverse;
 }
 
 .containerForm {
 	max-width: 100%;
-	padding: 20px 12px 10px 20px;
+	padding: 30px 12px 50px 20px;
 	font: 13px Arial, Helvetica, sans-serif;
-	background: #f7f7f7;
+	background: var(--content-color);
 	display: flex;
 	justify-content: center;
+
 }
+
 .containerForm-header2, .containerForm-header1 {
 	font-weight: bold;
 	font-style: normal;
@@ -207,18 +208,14 @@ div .aboutmoon {
 	border-radius: 10px;
     width: 130px;
     padding: 5px;
-
-  
 }
 
 
 fieldset {
 	border: 1px solid rgb(0,255,204);
-
 }
 
-
-.btn-2 {
+.btn {
 	color: rgb(0,255,204);
 	padding: 10px 25px;
 	border: 1px solid rgb(0,255,204);
