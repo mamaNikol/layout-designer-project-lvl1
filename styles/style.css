@@ -28,7 +28,7 @@ body {
 	align-items: baseline;
 
 }
-.flex-container-nav a {
+.flex-container-nav a {s
 	text-decoration: none;
 	color: black;
 }
@@ -209,6 +209,9 @@ div .aboutmoon {
     width: 130px;
     padding: 5px;
 }
+.containerForm h2 {
+	text-align: center;
+}
 
 
 fieldset {
@@ -228,7 +231,6 @@ fieldset {
 	border-radius: 10px;
 
 }
-
 
 footer {
 	background: #303846;
