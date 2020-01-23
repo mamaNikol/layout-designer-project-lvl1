@@ -2,12 +2,9 @@
 	--content-color: #f7f7f7;
 	--headpice-height: 400px;
 	--content-fontsize: 16px;
-<<<<<<< HEAD
 	--header-height: 50px;
-=======
 	--h1-fontsize: 36px;
 	--h2-fontsize: 22px;
->>>>>>> 4a75066bf3bcc5881143f3a59e4979aedb51deca
 }
 body {
 	margin: 0;
@@ -95,24 +92,15 @@ section {
     margin-right: auto;
 }
 .advantage  {
-	
+	flex-direction: row;
 	justify-content: space-around;
 	 padding: 20px;
 	padding-right: 10px;
 
 
 }
-<<<<<<< HEAD
 .width_content {
-=======
-.content_advantage {
-	
-	flex-wrap: wrap;
-	width: 30%;
-	align-items: flex-start;
-   
->>>>>>> 4a75066bf3bcc5881143f3a59e4979aedb51deca
-
+    flex-direction: column;
 	width: 30%;
 }
 p {
@@ -149,13 +137,8 @@ p {
 div .aboutmoon {
 	display: flex;
 }
-<<<<<<< HEAD
 .moonplaces {
  display: flex;
-=======
-.moon, .places {
- 
->>>>>>> 4a75066bf3bcc5881143f3a59e4979aedb51deca
  flex-wrap: wrap;
  width: 40%;
  
