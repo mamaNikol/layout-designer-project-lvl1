@@ -2,7 +2,12 @@
 	--content-color: #f7f7f7;
 	--headpice-height: 400px;
 	--content-fontsize: 16px;
+<<<<<<< HEAD
 	--header-height: 50px;
+=======
+	--h1-fontsize: 36px;
+	--h2-fontsize: 22px;
+>>>>>>> 4a75066bf3bcc5881143f3a59e4979aedb51deca
 }
 body {
 	margin: 0;
@@ -17,18 +22,16 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-    margin-bottom: 50px;
 	background: white;
 	color: black;
 	padding: 5px 20px;
 	align-items: baseline;
 
 }
-.flex-container-nav ul {
+.flex-container-header ul {
 	display: flex;
 	flex-direction: row;
 	align-items: baseline;
-
 }
 .flex-container-nav a {s
 	text-decoration: none;
@@ -47,28 +50,32 @@ body {
 	
 	padding-left: 10px;
 }
+.d-flex {
+	display: flex;
 	
+}	
 main {
-	display: flex;
-	flex-direction: column;
+		margin-top: 50px;
+		flex-direction: column;
 }
-
+h1 {
+	font-size: var(--h1-fontsize);
+}
+h2 {
+	font-size: var(--h2-fontsize);
+}
 .headpiece {
-	display: flex;
-	flex-direction: column;
+    flex-direction: column;
 	align-items: center;
 	background-image: url(../banner.png);
 	background-position: center;
-    height: var(--headpice-height);
 	color: white;
 	padding: 20px;
 	justify-content: center;
+	line-height: 0.5;
 
 }
-.headpiece h2 {
-	margin-top: -15px;
-	font-size: 14px;
-}
+
  
 .headpiece a {
 	background: none;
@@ -77,7 +84,7 @@ main {
 	
 	border-radius: 10px;
 	color: white;
-	padding: 7px;
+	padding: 15px;
 }
 .headpiece img {
 	padding-top: 50px;
@@ -88,12 +95,23 @@ section {
     margin-right: auto;
 }
 .advantage  {
-	display: flex;
+	
 	justify-content: space-around;
+	 padding: 20px;
+	padding-right: 10px;
 
 
 }
+<<<<<<< HEAD
 .width_content {
+=======
+.content_advantage {
+	
+	flex-wrap: wrap;
+	width: 30%;
+	align-items: flex-start;
+   
+>>>>>>> 4a75066bf3bcc5881143f3a59e4979aedb51deca
 
 	width: 30%;
 }
@@ -104,9 +122,9 @@ p {
 }
 
 .aboutmoon , .aboutplaces {
-	display: flex;
+
 	align-items: flex-start;
- justify-content: space-evenly;
+ justify-content: center;
  
  padding-top: 30px;
  padding-bottom: 30px;
@@ -115,13 +133,13 @@ p {
 
 .aboutmoon_content, .aboutplaces_content {
 	width: 1000px;
-	display: flex;
+	
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: stretch;
 }
 .aboutplaces_content {
-	display: flex;
+	
 	flex-direction: row-reverse;
 }
 .aboutmoon {
@@ -131,8 +149,13 @@ p {
 div .aboutmoon {
 	display: flex;
 }
+<<<<<<< HEAD
 .moonplaces {
  display: flex;
+=======
+.moon, .places {
+ 
+>>>>>>> 4a75066bf3bcc5881143f3a59e4979aedb51deca
  flex-wrap: wrap;
  width: 40%;
  
@@ -165,12 +188,12 @@ div .aboutmoon {
 	padding: 30px 12px 50px 20px;
 	font: 13px Arial, Helvetica, sans-serif;
 	background: var(--content-color);
-	display: flex;
+	
 	justify-content: center;
 
 }
 
-.containerForm-header2, .containerForm-header1 {
+.containerForm-header {
 	font-weight: bold;
 	font-style: normal;
 	
@@ -240,7 +263,7 @@ footer li {
 	list-style: disc;
 }
 
-.logo img, .logo2 img {
+.images img {
 	width: 20px;
     height: 20px;
 
