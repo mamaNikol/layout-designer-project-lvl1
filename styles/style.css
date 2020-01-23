@@ -2,12 +2,14 @@
 	--content-color: #f7f7f7;
 	--headpice-height: 400px;
 	--content-fontsize: 16px;
+	--header-height: 50px;
 }
 body {
 	margin: 0;
 	font-family: Tahoma, Geneva, sans-serif;
 }
 	.flex-container-header {
+    height: var(--header-height);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -32,9 +34,10 @@ body {
 	text-decoration: none;
 	color: black;
 }
-li {
-	list-style: none;
+
+.mr-20 {
 	margin-right: 20px;
+	list-style: none;
 }
 .logo {
 	align-self: baseline;
@@ -90,14 +93,9 @@ section {
 
 
 }
-.content_advantage {
-	display: flex;
-	flex-wrap: wrap;
-	width: 30%;
-	padding: 20px;
-	align-items: flex-start;
-	padding-right: 10px;
+.width_content {
 
+	width: 30%;
 }
 p {
 	font-size: var(--content-fontsize);
@@ -133,22 +131,21 @@ p {
 div .aboutmoon {
 	display: flex;
 }
-.moon, .places {
+.moonplaces {
  display: flex;
  flex-wrap: wrap;
  width: 40%;
  
-
 }
-.moon {
+.mr-30 {
 	margin-right: 30px;
 }
-.places {
+.ml-30 {
 	margin-left: 30px;
 }
 
-.imagemoon {
-	display: flex;
+.mt-15 {
+	
 	margin-top: 15px;
 }
 .imagemoon img, .imagecosmos img {
@@ -158,9 +155,7 @@ div .aboutmoon {
 .headpiece img {
 	width: 120px;
 }
-.imagecosmos {
-	margin-top: 15px;
-}
+
 .aboutplaces {
 	flex-direction: row-reverse;
 }
