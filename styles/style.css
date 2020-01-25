@@ -25,14 +25,9 @@ body {
 	align-items: baseline;
 
 }
-.flex-container-header ul {
-	display: flex;
+.navigator {
 	flex-direction: row;
 	align-items: baseline;
-}
-.flex-container-nav a {s
-	text-decoration: none;
-	color: black;
 }
 
 .mr-20 {
@@ -43,7 +38,7 @@ body {
 	align-self: baseline;
 
 }
-.logo span {
+.pl-10 {
 	
 	padding-left: 10px;
 }
@@ -73,7 +68,7 @@ h2 {
 
 }
 
-.headpiece a {
+.book {
 	background: none;
 	text-decoration: none;
 	border: 1px solid white;
@@ -130,7 +125,6 @@ p {
 	flex-direction: row-reverse;
 }
 .moonplaces {
- display: flex;
  flex-wrap: wrap;
  width: 40%;
  
@@ -239,9 +233,7 @@ footer li {
     height: 20px;
 
 }
-.logo2 span {
-	 padding-left: 10px;
-}
+
 footer a {
 	color: white;
 	text-decoration: none;
