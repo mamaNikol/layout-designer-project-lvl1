@@ -20,7 +20,7 @@ body {
 	background: white;
 	color: black;
 	padding: 5px 20px;
-	align-items: baseline;
+	align-items: center;
 	box-sizing: border-box;
 
 }
@@ -88,8 +88,7 @@ section {
 .advantage  {
 	justify-content: space-evenly;
 	 padding: 20px;
-	padding-right: 10px;
-	align-items: center;
+	align-items: baseline;
 }
 .width-30 {
 	width: 30%;
@@ -115,12 +114,12 @@ p {
 .content {
 	width: 1000px;
 	justify-content: space-evenly;
+	align-items: center;
 
 }
 .moonplaces {
  flex-wrap: wrap;
  width: 40%;
- 
 }
 .mr-30 {
 	margin-right: 30px;
@@ -129,11 +128,9 @@ p {
 	margin-left: 30px;
 }
 
-.mt-15 {
-	margin-top: 15px;
-}
 .imagemoon img, .imagecosmos img {
 	width: 280px ;
+
 
 }
 .headpiece img {
@@ -181,7 +178,7 @@ p {
     width: 130px;
     padding: 5px;
 }
-.container-form h2 {
+.center {
 	text-align: center;
 }
 
