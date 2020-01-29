@@ -10,55 +10,57 @@ body {
 	margin: 0;
 	font-family: Tahoma, Geneva, sans-serif;
 }
-	.flex-container-header {
-    height: var(--header-height);
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	justify-content: space-between;
-	background: white;
-	color: black;
-	padding: 5px 20px;
-	align-items: center;
-	box-sizing: border-box;
 
+.flex-container-header {
+   height: var(--header-height);
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   justify-content: space-between;
+   background: white;
+   color: black;
+   padding: 5px 20px;
+   align-items: center;
+   box-sizing: border-box;
 }
+
 .direction-row {
-	flex-direction: row;
+   flex-direction: row;
 }
+
 .direction-column {
-	flex-direction: column;
+   flex-direction: column;
 }
 .direction {
-	flex-direction: row-reverse;
+   flex-direction: row-reverse;
 }
 
 .mr-20 {
-	margin-right: 20px;
-	list-style: none;
+   margin-right: 20px;
+   list-style: none;
 }
-.logo {
-	align-self: baseline;
 
-}
 .pl-10 {
-	
-	padding-left: 10px;
+   padding-left: 10px;
 }
+
 .d-flex {
-	display: flex;
-	
-}	
+   display: flex;	
+}
+
 main {
-		margin-top: var(--header-height);
+   margin-top: var(--header-height);
 }
+
 h1 {
-	font-size: var(--h1-fontsize);
+   font-size: var(--h1-fontsize);
 }
+
 h2 {
-	font-size: var(--h2-fontsize);
+   font-size: var(--h2-fontsize);
 }
+
 .headpiece {
 	align-items: center;
 	background-image: url(../banner.png);
@@ -85,14 +87,17 @@ section {
     margin-left: auto;
     margin-right: auto;
 }
+
 .advantage  {
 	justify-content: space-evenly;
 	 padding: 20px;
 	align-items: baseline;
 }
+
 .width-30 {
 	width: 30%;
 }
+
 p {
 	font-size: var(--content-fontsize);
 	margin-top: 0px;
@@ -108,7 +113,6 @@ p {
 
 .background {
 	background: var(--content-color);
-
 }
 
 .content {
@@ -118,21 +122,22 @@ p {
 
 }
 .moonplaces {
- flex-wrap: wrap;
- width: 40%;
+    flex-wrap: wrap;
+    width: 40%;
 }
+
 .mr-30 {
 	margin-right: 30px;
 }
+
 .ml-30 {
 	margin-left: 30px;
 }
 
 .imagemoon img, .imagecosmos img {
 	width: 280px ;
-
-
 }
+
 .headpiece img {
 	width: 120px;
 }
@@ -143,7 +148,6 @@ p {
 	font: 13px Arial, Helvetica, sans-serif;
 	background: var(--content-color);
 	justify-content: center;
-
 }
 
 .containerForm-header {
@@ -153,38 +157,40 @@ p {
 	font-size: 15px;
 	padding-bottom: 5px;
 	color:rgb(0,255,204);
-
 }
+
 .blockForlabel label {
 	display: block;
 	margin: 0px 0px 15px 0px;
-
 }
 
 .container-form label > span {
-	width: 200px;
+	width: 250px;
 	font-weight: bold;
 	float: left;
 	padding-top: 5px;
 	padding-right: 5px;
 	padding-left: 10px;
 }
+
 .container-form select {
 	display: block;
 	box-sizing: border-box;
 	margin: 0px 0px 15px 15px;
 	font-weight: bold;
 	border-radius: 10px;
-    width: 130px;
-    padding: 5px;
-}
-.center {
-	text-align: center;
+    width: 140px;
+    padding: 7px;
 }
 
+.center {
+	text-align: center;
+	font-size: 30px;
+}
 
 fieldset {
 	border: 1px solid rgb(0,255,204);
+	margin-bottom: 10px;
 }
 
 .btn {
@@ -194,11 +200,27 @@ fieldset {
 	border-radius: 10px;
 	margin-top: 10px;
 	background: none;
+	font-size: 20px;
+	font-weight: bold;
 }
+
 .container-form input {
 	background: white;
 	border-radius: 10px;
+	padding: 7px;
+	box-shadow: none;
+	margin-right: 10px;
+}
+.input-size {
+	width: 180px;
+}
 
+.container-form label {
+	font-size: 16px;
+}
+
+.container-form legend {
+	font-size: 20px;
 }
 
 footer {
@@ -208,6 +230,7 @@ footer {
 	justify-content: space-around;
 	align-items: baseline;
 }
+
 footer li {
 	list-style: disc;
 }
@@ -215,7 +238,6 @@ footer li {
 .images img {
 	width: 20px;
     height: 20px;
-
 }
 
 footer a {
