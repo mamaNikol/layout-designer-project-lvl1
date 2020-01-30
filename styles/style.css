@@ -5,6 +5,7 @@
 	--header-height: 60px;
 	--h1-fontsize: 36px;
 	--h2-fontsize: 22px;
+	--form-fontsize : 20px;
 }
 body {
 	margin: 0;
@@ -32,7 +33,7 @@ body {
 .direction-column {
    flex-direction: column;
 }
-.direction {
+.row-reverse {
    flex-direction: row-reverse;
 }
 
@@ -59,6 +60,12 @@ h1 {
 
 h2 {
    font-size: var(--h2-fontsize);
+}
+.mb-0 {
+	margin-bottom: 0;
+}
+.mt-0 {
+	margin-top: 0;
 }
 
 .headpiece {
@@ -104,7 +111,6 @@ p {
 }
 
 .flexy  {
-	align-items: flex-start;
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -185,9 +191,11 @@ p {
 
 .center {
 	text-align: center;
-	font-size: 30px;
 }
 
+.fontsize-30 {
+	font-size: 30px;
+}
 fieldset {
 	border: 1px solid rgb(0,255,204);
 	margin-bottom: 10px;
@@ -195,12 +203,12 @@ fieldset {
 
 .btn {
 	color: rgb(0,255,204);
-	padding: 10px 25px;
+	padding: 7px 25px;
 	border: 1px solid rgb(0,255,204);
 	border-radius: 10px;
 	margin-top: 10px;
 	background: none;
-	font-size: 20px;
+	font-size: var(--form-fontsize);
 	font-weight: bold;
 }
 
@@ -220,7 +228,7 @@ fieldset {
 }
 
 .container-form legend {
-	font-size: 20px;
+	font-size: var(--form-fontsize);
 }
 
 footer {
